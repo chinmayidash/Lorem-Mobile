@@ -3,12 +3,48 @@
 		width: 24%;		
 	}
 }
+@media screen and (max-width: 990px) {
+	#header .logo_text {
+	    display: none;
+	}
+}
 @media screen and (max-width: 939px) {
 	#services .service_column .title h5 {
 		font-size: 13px;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+	#header .navigation {
+   		float: left;
+	}
+}
+@media screen and (max-width: 767px) {
+	#header {
+		position: relative;
+	}
+	#header .menu-icon {
+		display: block;
+		z-index: 2;
+		position: relative;
+	}
+	#header .navigation {
+		width: 100%;
+		position: absolute;
+		top:0;
+		left: 0;
+		background: #898989;
+		display: none;
+		z-index: 1;
+	}
+	#header .logo{
+		z-index: 0;
+		position: relative;
+	}
+	#header .navigation ul li {
+		display: block;
+		text-align: center;
+		padding: 10px 0;
+	}
 	#services .service_column {
 		width: 100%;
 	}

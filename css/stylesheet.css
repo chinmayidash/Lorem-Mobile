@@ -260,7 +260,13 @@ label {
     padding: 41px 15px 41px 0;
     text-transform: uppercase;
 }
-
+#header .menu-icon {
+    float: right;
+    font-size: 35px;
+    padding: 20px;
+    padding-top: 35px;
+    display: none;
+}
 #header .logo_text h5 {
     color: #fff;
     font: 26.55px/34px 'open_sansregular', sans-sarif;
@@ -350,7 +356,7 @@ label {
 }
 /*5.0.services*/
 #services .service_head {
-    padding: 66px 0 120px 0;
+    padding: 66px 0 55px 0;
 }
 
 #services .service_head h4 {
@@ -437,7 +443,7 @@ padding:
 
 #contact .contact_head {
     padding-top: 76px;
-    padding-bottom: 125px;
+    padding-bottom: 60px;
 }
 
 #contact .contact_head h4 {
